@@ -1,0 +1,3 @@
+/home/ruben/CLionProjects/game/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/ruben/CLionProjects/game/cmake-build-debug/CMakeFiles/game.dir
+/home/ruben/CLionProjects/game/cmake-build-debug/CMakeFiles/edit_cache.dir
