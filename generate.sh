@@ -30,6 +30,6 @@ clear
 echo "Actualizando Projecto..."
 echo "s/PROYECTO/$1/g"
 sed -i 's/PROYECTO/'$1'/g' CMakeLists.txt
-sed -i 's#DIRECTORIO#~/Libraries/SFML#g' CMakeLists.txt
+sed -i 's#DIRECTORIO#~/Libraries/SFML-2.5.1#g' CMakeLists.txt
 
 

@@ -6,10 +6,10 @@ set(PROJECT_SOURCE
         main.cpp
     )
 
-# C++ Standard se sugiere 11 ó 14
+# C++ Standard se sugiere 11 ï¿½ 14
 set(CMAKE_CXX_STANDARD 14)
 
-set(SFML_ROOT "~/Libraries/SFML")
+set(SFML_ROOT "~/Libraries/SFML-2.5.1")
 
 set(SFML_INCLUDE_DIR "${SFML_ROOT}/include")
 set(SFML_LIBRARY_DIR "${SFML_ROOT}/lib")
