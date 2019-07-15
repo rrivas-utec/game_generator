@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.13)
-project(game)
+project(PROYECTO)
 
 # Archivos del Projecto
 set(PROJECT_SOURCE
@@ -9,7 +9,7 @@ set(PROJECT_SOURCE
 # C++ Standard se sugiere 11 � 14
 set(CMAKE_CXX_STANDARD 14)
 
-set(SFML_ROOT "~/Libraries/SFML-2.5.1")
+set(SFML_ROOT "DIRECTORIO")
 
 set(SFML_INCLUDE_DIR "${SFML_ROOT}/include")
 set(SFML_LIBRARY_DIR "${SFML_ROOT}/lib")

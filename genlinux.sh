@@ -8,9 +8,9 @@ if [ $# -eq 0 ]
 then
     clear
     echo -e "\n${RED}ERROR: Falto nombre de proyecto${NC}"
-    echo -e "${YELLOW}./generate.sh <NombreProjecto>${NC}"
+    echo -e "${YELLOW}./genlinux.sh <NombreProjecto>${NC}"
     echo -e "Donde: ${YELLOW}<NombreProjecto> = El nombre de Projecto${NC}"
-    echo -e "Ejemplo: ${YELLOW}./generate.sh game${NC}"
+    echo -e "Ejemplo: ${YELLOW}./genlinux.sh game${NC}"
     exit 1
 fi 
 
@@ -28,7 +28,6 @@ tar -xvf ~/Downloads/SFML-2.5.1-linux-gcc-64-bit.tar.gz -C ~/Libraries
 
 clear
 echo "Actualizando Projecto..."
-echo "s/PROYECTO/$1/g"
 sed -i 's/PROYECTO/'$1'/g' CMakeLists.txt
 sed -i 's#DIRECTORIO#~/Libraries/SFML-2.5.1#g' CMakeLists.txt
 
