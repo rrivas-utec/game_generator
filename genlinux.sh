@@ -9,8 +9,8 @@ then
     clear
     echo -e "\n${RED}ERROR: Falto nombre de proyecto${NC}"
     echo -e "${YELLOW}./genlinux.sh <NombreProjecto>${NC}"
-    echo -e "Donde: ${YELLOW}<NombreProjecto> = El nombre de Projecto${NC}"
-    echo -e "Ejemplo: ${YELLOW}./genlinux.sh game${NC}"
+    echo -e "donde: ${YELLOW}<NombreProjecto> = El nombre de Projecto${NC}"
+    echo -e "ejemplo: ${YELLOW}./genlinux.sh game${NC}"
     exit 1
 fi 
 
