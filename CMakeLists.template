@@ -13,7 +13,13 @@ set(SFML_ROOT "DIRECTORIO")
 
 set(SFML_INCLUDE_DIR "${SFML_ROOT}/include")
 set(SFML_LIBRARY_DIR "${SFML_ROOT}/lib")
-set(SFML_DIR "${SFML_ROOT}/lib/cmake/SFML")
+
+if (APPLE)
+    set(SFML_DIR "${SFML_ROOT}/Frameworks/SFML.framework/Resources/CMake")
+else()
+    set(SFML_DIR "${SFML_ROOT}/lib/CMake/SFML")
+endif()
+
 link_directories(SFML_LIBRARY_DIR)
 include_directories(SFML_INCLUDE_DIR)
 
