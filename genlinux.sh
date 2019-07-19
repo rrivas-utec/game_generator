@@ -4,32 +4,32 @@ RED='\033[0;31m'
 YELLOW='\033[1;33m'
 NC='\033[0m'
 
-if [ $# -eq 0 ]
-then
+if [ $# -eq 0 ]; then
     clear
     echo -e "\n${RED}ERROR: Falto nombre de proyecto${NC}"
-    echo -e "${YELLOW}./genlinux.sh <NombreProjecto>${NC}"
-    echo -e "donde: ${YELLOW}<NombreProjecto> = Nombre del Projecto${NC}"
-    echo -e "ejemplo: ${YELLOW}./genlinux.sh game${NC}"
+    echo -e "Formato: ${YELLOW}./genlinux.sh <NombreProjecto>${NC}"
+    echo -e "Ejemplo: ${YELLOW}./genlinux.sh game${NC}"
     exit 1
 fi 
 
-clear
-echo "Removiendo descarga anterior de SFML..."
-rm -rf ~/Downloads/SFML*
+if [ ! -f '~/DevLibraries/SFML-2.5.1' ]; then
+    if [ ! -f '~/Downloads/SFML-2.5.1' ]; then
+        #clear
+        echo "Descargando biblioteca SFML ..."
+        wget https://www.sfml-dev.org/files/SFML-2.5.1-linux-gcc-64-bit.tar.gz -P ~/Downloads
+    fi
 
-clear
-echo "Descargando biblioteca SFML..."
-wget https://www.sfml-dev.org/files/SFML-2.5.1-linux-gcc-64-bit.tar.gz -P ~/Downloads
+    #clear
+    echo "Instalando SFML..."
+    tar -xvf ~/Downloads/SFML-2.5.1-linux-gcc-64-bit.tar.gz -C ~/DevLibraries
+fi
 
-clear
-echo "Descomprimir..."
-tar -xvf ~/Downloads/SFML-2.5.1-linux-gcc-64-bit.tar.gz -C ~/Libraries
-
-clear
-echo "Actualizando Projecto..."
+#clear
+echo "Generando CMakeLists.txt ..."
+rm -rf CMakeLists.txt
+cp CMakeLists.template CMakeLists.txt
 sed -i 's/PROYECTO/'$1'/g' CMakeLists.txt
-sed -i 's#DIRECTORIO#~/Libraries/SFML-2.5.1#g' CMakeLists.txt
+sed -i 's#DIRECTORIO#~/DevLibraries/SFML-2.5.1#g' CMakeLists.txt
 
-clear
+#clear
 echo "Actualizacion exitosa..."

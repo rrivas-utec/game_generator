@@ -13,33 +13,34 @@ if [ $# -eq 0 ]; then
     exit 1
 fi 
 
+if [ ! -d ~/DevLibraries/SFML-2.5.1-macOS-clang ]; then
     if [ ! -f ~/Downloads/SFML-2.5.1-macOS-clang.tar.gz ]; then
         clear
-        echo "Descargando biblioteca SFML..."
+        echo "${YELLOW}Descargando biblioteca SFML ...${NC}"
         curl -o ~/Downloads/SFML-2.5.1-macOS-clang.tar.gz \
              https://www.sfml-dev.org/files/SFML-2.5.1-macOS-clang.tar.gz
     fi
 
     clear
-    echo "Descomprimir..."
+    echo "${YELLOW}Instalando SFML ...${NC}"
     if [ ! -d ~/DevLibraries ]; then
         mkdir ~/DevLibraries
-    elif [ -d ~/DevLibraries/SFML-2.5.1-macOS-clang.tar.gz ]; then
-        rm -rf ~/DevLibraries/SFML-2.5.1-macOS-clang.tar.gz
-    fi
     tar -xvf ~/Downloads/SFML-2.5.1-macOS-clang.tar.gz -C ~/DevLibraries
+fi
 
+if [ ! -d ~/DevLibraries/SFML-2.5.1-macOS-clang/extlibs ]; then
     clear
-    echo "Copiando extlibs a ~/Library/Framework..."
+    echo "${YELLOW}Copiando extlibs a ~/Library/Framework ...${NC}"
     cp -avf ~/DevLibraries/SFML-2.5.1-macOS-clang/extlibs/. \
         ~/Library/Frameworks
+fi
 
-    clear
-    echo "Modificando plantilla CMakeLists.txt..."
-    cp CMakeLists.template CMakeLists.txt
-    perl -i -pe's/PROYECTO/'$1'/g' CMakeLists.txt
-    perl -i -pe's#DIRECTORIO#~/DevLibraries/SFML-2.5.1-macOS-clang#g' \
-         CMakeLists.txt
+clear
+echo "${YELLOW}Generando CMakeLists.txt ...${NC}"
+cp CMakeLists.template CMakeLists.txt
+perl -i -pe's/PROYECTO/'$1'/g' CMakeLists.txt
+perl -i -pe's#DIRECTORIO#~/DevLibraries/SFML-2.5.1-macOS-clang#g' \
+    CMakeLists.txt
 
-    clear 
-    echo "Actualizacion exitosa..."
+clear 
+echo "Actualizacion exitosa..."
