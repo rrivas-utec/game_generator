@@ -33,3 +33,4 @@ sed -i 's#DIRECTORIO#~/DevLibraries/SFML-2.5.1#g' CMakeLists.txt
 
 #clear
 echo "Actualizacion exitosa..."
+
