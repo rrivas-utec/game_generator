@@ -3,25 +3,14 @@ $RED="$ESC[0;91m"
 $YELLOW="$ESC[1;33m"
 $NC="$ESC[0m"
 
+$OSBit = "64bit"
+$OSEnv = "win64"
+
 if ($args.count -eq 0 ) {
     echo $RED "ERROR: Falto nombre de proyecto$NC"
-    echo "`tFormato: $YELLOW./genwin64.ps1 <Nombre de Projecto>$NC"
-    echo "`tEjemplo: $YELLOW./genwin64.ps1 game$NC"
+    echo "`tFormato: $YELLOW./gen_cmakelists_$OSEnv.ps1 <Nombre de Projecto>$NC"
+    echo "`tEjemplo: $YELLOW./gen_cmakelists_$OSEnv.ps1 game$NC"
     exit
-}
-
-# clear
-# echo $YELLOW "Removiendo descarga anterior de SFML ..." $NC
-# rm -recurse -force ~/Downloads/SFML*
-
-if (-not (Test-Path "~/DevLibraries/SFML/64bit/SFML-2.5.1")) {
-    if (-not (Test-Path "~/Downloads/SFML-2.5.1-windows-vc15-64-bit.zip")) {
-        #clear
-        echo "Descargando biblioteca SFML..."
-        curl -o ~/Downloads/SFML-2.5.1-windows-vc15-64-bit.zip https://www.sfml-dev.org/files/SFML-2.5.1-windows-vc15-64-bit.zip 
-    }
-    echo $YELLOW "Instalando Biblioteca SFML ..." $NC 
-    expand-archive ~/Downloads/SFML-2.5.1-windows-vc15-64-bit.zip -destinationpath ~/DevLibraries/SFML/64bit
 }
 
 #clear
@@ -30,13 +19,13 @@ rm -ErrorAction Ignore CMakeLists.txt
 rm -ErrorAction Ignore CMakeLists.aux
 cp -force CMakeLists.template CMakeLists.txt
 $project = $args[0]
-cat CMakeLists.template | %{$_ -replace "PROYECTO", $project} > CMakeLists.aux
-cat CMakeLists.aux | %{$_ -replace "DIRECTORIO","~/DevLibraries/SFML/64bit/SFML-2.5.1"} > CMakeLists.txt
+Get-Content CMakeLists.template | %{$_ -replace "PROYECTO", $project} | Out-File -Encoding utf8 CMakeLists.aux
+Get-Content CMakeLists.aux | %{$_ -replace "DIRECTORIO","~/DevLibraries/SFML/$OSbit/SFML-2.5.1"} | Out-File -Encoding utf8 CMakeLists.txt
 rm CMakeLists.aux
 
 $SFMLPath = [Environment]::GetEnvironmentVariable("PATH", "user")
-if (!($SFMLPath -like "*\DevLibraries\SFML\64bit\SFML-2.5.1\bin*")) {
-    $SFMLPath += ";$HOME\DevLibraries\SFML\64bit\SFML-2.5.1\bin"
+if (!($SFMLPath -like "*\DevLibraries\SFML\$OSBit\SFML-2.5.1\bin*")) {
+    $SFMLPath += ";$HOME\DevLibraries\SFML\$OSBit\SFML-2.5.1\bin"
     [Environment]::SetEnvironmentVariable("PATH", $SFMLPath, "user")
 }
 
