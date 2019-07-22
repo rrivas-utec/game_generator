@@ -12,15 +12,15 @@ This is a repository that contains  BASH and Powershell scripts, they allow to g
 ```
 sudo apt install cmake
 ```
-1. G++
+2. G++
 ```
 sudo apt install g++
 ```
-1. Git
+3. Git
 ```
 sudo apt install 
 ```
-1. CLion
+4. CLion
 see: [JetBrains] https://www.jetbrains.com/help/clion/installation-guide.html
 ### MacOS
 
