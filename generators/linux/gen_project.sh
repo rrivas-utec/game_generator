@@ -13,15 +13,14 @@ if [ $# -eq 0 ]; then
 fi 
 
 PROJECT_PATH="`realpath ../../..`/$1"
-if [ -d ../../../$1 ]; then
-#    clear
+if [ -d ${PROJECT_PATH} ]; then
     echo -e "${RED}ERROR: No se puede generar en folder existente: ${YELLOW}[${PROJECT_PATH}]${NC}"
     exit 1
 fi
 
 mkdir ${PROJECT_PATH}
 cp -r ../../source/. ${PROJECT_PATH}
-# clear
+
 echo -e "${YELLOW}Generando Proyectos ...${NC}"
 mv ${PROJECT_PATH}/CMakeLists.template ${PROJECT_PATH}/CMakeLists.txt
 sed -i 's/PROYECTO/'$1'/g' ${PROJECT_PATH}/CMakeLists.txt
