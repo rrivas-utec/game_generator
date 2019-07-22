@@ -11,10 +11,20 @@ if [ $# -eq 0 ]; then
     exit 1
 fi 
 
-echo -e "${YELLOW}Generando CMakeLists.txt ...${NC}"
-cp CMakeLists.template CMakeLists.txt
-sed -i '' -e 's/PROYECTO/'$1'/' CMakeLists.txt
-sed -i '' -e 's#DIRECTORIO#~/DevLibraries/SFML-2.5.1-macOS-clang#' \
-    CMakeLists.txt
+PROJECT_PATH="$(cd "$(dirname "../../../..")" && pwd -P)/"$1
+if [ -d ${PROJECT_PATH} ]; then
+    echo -e "${RED}ERROR: No se puede genera en folder existente: ${YELLOW}[${PROJECT_PATH}]${NC}"
+    exit 1
+fi
 
-echo "Finalizo exitosomente ..."
+mkdir ${PROJECT_PATH}
+cp -r ../../source/. ${PROJECT_PATH}
+
+echo -e "${YELLOW}Generando CMakeLists.txt ...${NC}"
+mv ${PROJECT_PATH}/CMakeLists.template ${PROJECT_PATH}/CMakeLists.txt
+sed -i '' -e 's/PROYECTO/'$1'/' ${PROJECT_PATH}/CMakeLists.txt
+sed -i '' -e 's#DIRECTORIO#~/DevLibraries/SFML-2.5.1-macOS-clang#' \
+    ${PROJECT_PATH}/CMakeLists.txt
+sed -i '' -e 's/PROYECTO/'$1'/' ${PROJECT_PATH}/run.sh
+
+echo "Actualizacion exitosa ..."
