@@ -2,21 +2,23 @@
 
 This is a repository that contains  BASH and Powershell scripts, they allow to generate CMake projects that use SFML library.
 
+[TOCM]
+
 [TOC]
 
-# Requirements
+## Requirements
 
-###Linux
+### Linux
 
-###MacOS
+### MacOS
 
-###Windows
+### Windows
 
-# Instalation
+## Instalation
 
-###Linux
+### Linux
 
-###MacOS
+### MacOS
 
-###Windows
+### Windows
 
