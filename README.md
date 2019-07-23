@@ -5,7 +5,6 @@ This is a repository that contains  BASH and Powershell scripts, they allow to g
 ## Requirements
 
 ### Linux - Ubuntu
-___
 1. Install CMake
     ```
     sudo apt install cmake
@@ -21,11 +20,10 @@ ___
 4. CLion  
     see: [JetBrains](https://www.jetbrains.com/help/clion/installation-guide.html)
 ### MacOS
-___
 1. CLang
-```
-xcode-select --install
-```
+    ```
+    xcode-select --install
+    ```
 2. Homebrew  
     see [Homebrew](https://brew.sh)  
 CLion  
