@@ -8,19 +8,23 @@ This is a repository that contains  BASH and Powershell scripts, they allow to g
 
 #### Ubuntu
 
-CMake```
+CMake
+```
 sudo apt install cmake
 ```
-G++```
+G++
+```
 sudo apt install g++
 ```
-Git```
+Git
+```
 sudo apt install git
 ```
 CLion  
 see: [JetBrains](https://www.jetbrains.com/help/clion/installation-guide.html)
 ### MacOS
-CLang```
+CLang
+```
 xcode-select --install
 ```
 Homebrew  
