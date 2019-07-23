@@ -27,9 +27,9 @@ CLang
 ```
 xcode-select --install
 ```
-Homebrew
+Homebrew  
 see: [Homebrew](https://brew.sh)
-CLion
+CLion   
 see: [JetBrains](https://www.jetbrains.com/help/clion/installation-guide.html)
 ### Windows
 CLion - MS Visual Studio version
