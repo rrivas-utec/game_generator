@@ -4,9 +4,7 @@ This is a repository that contains  BASH and Powershell scripts, they allow to g
 
 ## Requirements
 
-### Linux
-
-#### Ubuntu
+### Linux - Ubuntu
 
 CMake
 ```
