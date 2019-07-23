@@ -3,8 +3,7 @@
 This is a repository that contains  BASH and Powershell scripts, they allow to generate CMake projects that use SFML library.
 
 ## Requirements
-
-### Linux - Ubuntu
+#### Linux - Ubuntu
 1. Install CMake
     ```
     sudo apt install cmake
@@ -19,24 +18,23 @@ This is a repository that contains  BASH and Powershell scripts, they allow to g
     ```
 4. CLion  
     see: [JetBrains](https://www.jetbrains.com/help/clion/installation-guide.html)
-### MacOS
+#### MacOS
 1. CLang
     ```
     xcode-select --install
     ```
 2. Homebrew  
     see [Homebrew](https://brew.sh)  
-CLion  
+3. CLion  
     see [JetBrains](https://www.jetbrains.com/help/clion/installation-guide.html)
-### Windows
----
-CLion - MS Visual Studio version  
+#### Windows
+1. CLion - MS Visual Studio version  
     see [JetBrains](https://www.jetbrains.com/help/clion/installation-guide.html)
 ## Instalation
 
-### Linux
----
-### MacOS
----
-### Windows
----
+#### Linux
+
+#### MacOS
+
+#### Windows
+
