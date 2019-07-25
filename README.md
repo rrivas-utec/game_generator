@@ -30,7 +30,7 @@ Please ensure that following required components have been installed:
     * Go to Home folder: `` cd ~ [ENTER] ``
     * Verify if folder CLionProjects exists `` ls [ENTER] `` otherwise create that new folder: `` mkdir CLionProjects [ENTER] ``
     * Go to CLionProjects folder: `` cd CLionProjects [ENTER] ``
-    * Download game Project: `` git clone https://github.com/rrivas-utec/game.git [ENTER] ``, and finally
+    * Download game project: `` git clone https://github.com/rrivas-utec/game.git [ENTER] ``, and finally
     * Execute following statements:
       ```
       cd ~/CLionProjects/game/installers/linux
@@ -45,7 +45,7 @@ Please ensure that following required components have been installed:
     * Go to Home folder: `` cd ~ [ENTER] ``
     * Verify if folder CLionProjects exists `` ls [ENTER] `` otherwise create that new folder: `` mkdir CLionProjects [ENTER] ``
     * Go to CLionProjects folder: `` cd CLionProjects [ENTER] ``
-    * Download game Project: `` git clone https://github.com/rrivas-utec/game.git [ENTER] ``, and finally
+    * Download game project: `` git clone https://github.com/rrivas-utec/game.git [ENTER] ``, and finally
     * Execute following statements:
       ```
       cd ~/CLionProjects/game/installers/macOS
@@ -63,7 +63,7 @@ Please ensure that following required components have been installed:
     * Go to Home folder: `` cd ~ [ENTER] ``
     * Verify if folder CLionProjects exists `` ls [ENTER] `` otherwise create that new folder: `` mkdir CLionProjects [ENTER] ``
     * Go to CLionProjects folder: `` cd CLionProjects [ENTER] ``
-    * Download game Project: `` git clone https://github.com/rrivas-utec/game.git [ENTER] ``, and finally
+    * Download game project: `` git clone https://github.com/rrivas-utec/game.git [ENTER] ``, and finally
     * Execute following statements:
       ```
       cd ~/CLionProjects/game/installers/windows
