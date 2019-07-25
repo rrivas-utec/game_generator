@@ -64,7 +64,7 @@ Please ensure that following prerequired components has been installed:
     * Go to CLionProjects folder: `` cd CLionProjects [ENTER] ``
     * Download game Project: `` git clone https://github.com/rrivas-utec/game.git [ENTER] ``, and finally
     * Execute following statements:
-    ```
+      ```
       cd ~/CLionProjects/game/installers/windows
       Set-ExecutionPolicy -ExecutionPolicy Unrestricted -Scope Process
       Y
