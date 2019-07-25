@@ -27,7 +27,7 @@ Please ensure that following required components have been installed:
 2. Ensure GNU C++/G++ has been installed or install as follow: `` sudo apt install g++ [ENTER]``
 3. Ensure GNU Debug has been installed or install as follow: `` sudo apt install gdb [ENTER]``
 4. Ensure Git has been installed or install as follow: `` sudo apt install git [ENTER]``
-5. More details see Linux - Ubuntu section: [JetBrains](https://www.jetbrains.com/help/clion/installation-guide.html)
+5. Install CLion and more details see Linux - Ubuntu section: [JetBrains](https://www.jetbrains.com/help/clion/installation-guide.html)
 6. Install SFML
     * Open a Terminal: [Ctrl] + [Alt] + [T]
     * Go to Home folder: `` cd ~ [ENTER] ``
@@ -43,8 +43,8 @@ Please ensure that following required components have been installed:
 1. Ensure CLang has been installed or if it is necessary run follow statement: `` xcode-select --install [ENTER] ``
 2. Ensure Homebrew has been installed or see: [Homebrew](https://brew.sh)
 3. Ensure Git has been installed or if it is necessary run follow statement: `` brew install git [ENTER] ``
-4. More details see MacOS section: [JetBrains](https://www.jetbrains.com/help/clion/installation-guide.html)
-5. Install SFML
+4. Install CLion and more details see MacOS section: [JetBrains](https://www.jetbrains.com/help/clion/installation-guide.html)
+5. Install SFML:
     * Open a Terminal: [Command] + [Spacebar] and write in `` terminal [ENTER] ``
     * Go to Home folder: `` cd ~ [ENTER] ``
     * Verify if folder CLionProjects exists `` ls [ENTER] `` otherwise create that new folder: `` mkdir CLionProjects [ENTER] ``
@@ -57,11 +57,11 @@ Please ensure that following required components have been installed:
       ``` 
 #### <img src="./media/font_awesome/windows-brands.svg" width="16"/> **Windows 10**
 1. Visual Studio Community 2019: [VS Community](https://visualstudio.microsoft.com/vs/community/)  
-   **__Minimum Requirement__**:   
+   **Minimum Requirement**:   
    > <img src="./media/VSCommunity-minimum.png" width="750"/>
-2. Git 2.20 or greater:[Git](https://git-scm.com/downloads)
-3. More details see CLion 2019 or greater - MS Visual Studio version section:[JetBrains](https://www.jetbrains.com/help/clion/installation-guide.html)
-4. Install SFML
+2. Git 2.20 or greater: [Git](https://git-scm.com/downloads)
+3. Install CLion and more details see CLion 2019 or greater - MS Visual Studio version section: [JetBrains](https://www.jetbrains.com/help/clion/installation-guide.html)
+4. Install SFML:
     * Open Powershell: <img src="./media/font_awesome/windows-brands.svg" width="14"/> + R and write in `` powershell [ENTER] ``
     * Go to Home folder: `` cd ~ [ENTER] ``
     * Verify if folder CLionProjects exists `` ls [ENTER] `` otherwise create that new folder: `` mkdir CLionProjects [ENTER] ``
