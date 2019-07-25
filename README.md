@@ -53,7 +53,7 @@ Please ensure that following prerequired components has been installed:
 #### <img src="./media/font_awesome/windows-brands.svg" width="16"/> **Windows 10**
 1. Visual Studio Community 2019: [VS Community](https://visualstudio.microsoft.com/vs/community/)
    
-   **Minimum Requirement**:   
+   **__Minimum Requirement__**:   
    > <img src="./media/VSCommunity-minimum.png" width="750"/>
    
 2. Git 2.20 or greater: [Git](https://git-scm.com/downloads)
