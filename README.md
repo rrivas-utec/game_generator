@@ -51,8 +51,7 @@ Please ensure that following prerequired components has been installed:
       ./install_sfml.sh
       ``` 
 #### <img src="./media/font_awesome/windows-brands.svg" width="16"/> **Windows 10**
-1. Visual Studio Community 2019: [VS Community](https://visualstudio.microsoft.com/vs/community/)
-   
+1. Visual Studio Community 2019: [VS Community](https://visualstudio.microsoft.com/vs/community/)  
    **__Minimum Requirement__**:   
    > <img src="./media/VSCommunity-minimum.png" width="750"/>
    
@@ -65,11 +64,9 @@ Please ensure that following prerequired components has been installed:
     * Go to CLionProjects folder: `` cd CLionProjects [ENTER] ``
     * Download game Project: `` git clone https://github.com/rrivas-utec/game.git [ENTER] ``, and finally
     * Execute following statements:
-      ```
+    ```
       cd ~/CLionProjects/game/installers/windows
       Set-ExecutionPolicy -ExecutionPolicy Unrestricted -Scope Process
       Y
       ./install_sfml.ps1
       ```
-    
-    
