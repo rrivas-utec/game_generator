@@ -1,3 +1,25 @@
+<style>
+  .icon::before {
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .login::before {
+    font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f007";
+  }
+
+  .tps::before {
+    font-family: "Font Awesome 5 Free"; font-weight: 400; content: "\f1ea";
+  }
+
+  .twitter::before {
+    font-family: "Font Awesome 5 Brands"; content: "\f099";
+  }
+</style>
+
 # Welcome to Game
 
 This is a repository that contains  BASH and Powershell scripts, they allow to generate CMake projects that include SFML library.
