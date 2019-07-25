@@ -26,7 +26,7 @@ Please ensure that following prerequired components has been installed:
 3. Ensure Git has been installed as follow: `` sudo apt install git ``
 4. More details see Linux - Ubuntu section: [JetBrains](https://www.jetbrains.com/help/clion/installation-guide.html)
 #### MacOS
-1. Ensure CLang has been installed or if it is necessary run follow statement: `` xcode-select --install ```
+1. Ensure CLang has been installed or if it is necessary run follow statement: `` xcode-select --install ``
 2. Ensure Homebrew has been installed or see: [Homebrew](https://brew.sh)  
 3. More details see MacOS section: [JetBrains](https://www.jetbrains.com/help/clion/installation-guide.html)
 #### Windows
