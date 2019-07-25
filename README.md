@@ -33,5 +33,5 @@ Please ensure that following prerequired components has been installed:
 2. Git 2.20 or greater: [Git](https://git-scm.com/downloads)
 3. More details see CLion 2019 or greater - MS Visual Studio version section: [JetBrains](https://www.jetbrains.com/help/clion/installation-guide.html)
 4. Install SFML
-  * Open Powershell: ![](./media/font_awesome/windows-brands.svg) + R and write `` powershell ``
+  * Open Powershell: ![](./media/font_awesome/windows-brands.svg = 12x12) + R and write `` powershell ``
 
