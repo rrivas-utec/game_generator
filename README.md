@@ -8,11 +8,11 @@ Please ensure that following prerequired components has been installed:
 * GNU C++/G++
 * Git
 * CLion
-#### <img src="./media/font_awesome/apple-brands.svg" width="16"/> **MacOS**
+#### <img src="./media/font_awesome/apple-brands.svg" width="16"/> **MacOS - Mojave**
 Please ensure that following prerequired components has been installed:
 * CLang
 * Homebrew  
-* CLion  
+* CLion
 #### <img src="./media/font_awesome/windows-brands.svg" width="16"/> **Windows**
 * Visual Studio Community
 * Git
@@ -24,11 +24,33 @@ Please ensure that following prerequired components has been installed:
 2. Ensure GNU C++/G++ has been installed as follow: `` sudo apt install g++ [ENTER]``
 3. Ensure Git has been installed as follow: `` sudo apt install git [ENTER]``
 4. More details see Linux - Ubuntu section: [JetBrains](https://www.jetbrains.com/help/clion/installation-guide.html)
-#### <img src="./media/font_awesome/apple-brands.svg" width="16"/> **MacOS**
+5. Install SFML
+    * Open a Terminal: [Ctrl] + [Alt] + [T]
+    * Go to Home folder: `` cd ~ [ENTER] ``
+    * Verify and if it does not exist create a new folder called CLionProjects: `` mkdir CLionProjects [ENTER] ``
+    * Go to CLionProjects folder: `` cd CLionProjects [ENTER] ``
+    * Download game Project: `` git clone https://github.com/rrivas-utec/game.git [ENTER] ``, and finally
+    * Execute following statements:
+      ```
+      cd ~/CLionProjects/game/installers/linux
+      ./install_sfml.sh
+      ``` 
+#### <img src="./media/font_awesome/apple-brands.svg" width="16"/> **MacOS - Mojave 10.14**
 1. Ensure CLang has been installed or if it is necessary run follow statement: `` xcode-select --install [ENTER]``
 2. Ensure Homebrew has been installed or see: [Homebrew](https://brew.sh)  
 3. More details see MacOS section: [JetBrains](https://www.jetbrains.com/help/clion/installation-guide.html)
-#### <img src="./media/font_awesome/windows-brands.svg" width="16"/> **Windows**
+4. Install SFML
+    * Open a Terminal: [Command] + [Spacebar] and write `` terminal [ENTER] ``
+    * Go to Home folder: `` cd ~ [ENTER] ``
+    * Verify and if it does not exist create a new folder called CLionProjects: `` mkdir CLionProjects [ENTER] ``
+    * Go to CLionProjects folder: `` cd CLionProjects [ENTER] ``
+    * Download game Project: `` git clone https://github.com/rrivas-utec/game.git [ENTER] ``, and finally
+    * Execute following statements:
+      ```
+      cd ~/CLionProjects/game/installers/macOS
+      ./install_sfml.sh
+      ``` 
+#### <img src="./media/font_awesome/windows-brands.svg" width="16"/> **Windows 10**
 1. Visual Studio Community 2019: [VS Community](https://visualstudio.microsoft.com/vs/community/)
 2. Git 2.20 or greater: [Git](https://git-scm.com/downloads)
 3. More details see CLion 2019 or greater - MS Visual Studio version section: [JetBrains](https://www.jetbrains.com/help/clion/installation-guide.html)
@@ -40,7 +62,7 @@ Please ensure that following prerequired components has been installed:
     * Download game Project: `` git clone https://github.com/rrivas-utec/game.git [ENTER] ``, and finally
     * Execute following statements:
       ```
-      cd ~/CLionProjects/game/Installers/windows
+      cd ~/CLionProjects/game/installers/windows
       Set-ExecutionPolicy -ExecutionPolicy Unrestricted -Scope Process
       Y
       ./install_sfml.ps1
