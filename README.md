@@ -22,9 +22,9 @@ Please ensure that following prerequired components has been installed:
 
 #### Linux - Ubuntu 18.04
 1. Ensure CMake has been installed or install as follow:
-    ```
+    ``
     sudo apt install cmake
-    ```
+    ``
 2. Ensure GNU C++/G++ has been installed as follow:
     ```
     sudo apt install g++
