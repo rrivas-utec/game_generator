@@ -30,7 +30,7 @@ Please ensure that following prerequired components has been installed:
 2. Ensure Homebrew has been installed or see: [Homebrew](https://brew.sh)  
 3. More details see MacOS section: [JetBrains](https://www.jetbrains.com/help/clion/installation-guide.html)
 #### Windows
-1. Visual Studio Community 2019 [VS Community](https://visualstudio.microsoft.com/vs/community/).
-2. Git 2.20 or greater [Git](https://git-scm.com/downloads)
+1. Visual Studio Community 2019: [VS Community](https://visualstudio.microsoft.com/vs/community/)
+2. Git 2.20 or greater: [Git](https://git-scm.com/downloads)
 3. More details see CLion 2019 or greater - MS Visual Studio version section: [JetBrains](https://www.jetbrains.com/help/clion/installation-guide.html)
 
