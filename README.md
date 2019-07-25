@@ -1,7 +1,7 @@
 # Welcome to Game
 This is a repository that contains  BASH and Powershell scripts, they allow to generate CMake projects that include SFML library.
 
-## Requirements
+## <img src="./media/font_awesome/check-square-regular.svg" width="18"/> Requirements
 #### <img src="./media/font_awesome/linux-brands.svg" width="16"/> <img src="./media/font_awesome/ubuntu-brands.svg" width="16"/> **Linux - Ubuntu**
 Please ensure that following prerequired components has been installed:
 * CMake
@@ -17,7 +17,7 @@ Please ensure that following prerequired components has been installed:
 * Visual Studio Community
 * Git
 * CLion
-## Instalation
+## <img src="./media/font_awesome/download-solid.svg" width="18"/> Installation
 
 #### <img src="./media/font_awesome/linux-brands.svg" width="16"/> <img src="./media/font_awesome/ubuntu-brands.svg" width="16"/> **Linux - Ubuntu 18.04**
 1. Ensure CMake has been installed or install as follow: `` sudo apt install cmake  [ENTER]``
