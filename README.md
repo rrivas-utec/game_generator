@@ -55,9 +55,8 @@ Please ensure that following required components have been installed:
 1. Visual Studio Community 2019: [VS Community](https://visualstudio.microsoft.com/vs/community/)  
    **__Minimum Requirement__**:   
    > <img src="./media/VSCommunity-minimum.png" width="750"/>
-   
-2. Git 2.20 or greater: [Git](https://git-scm.com/downloads)
-3. More details see CLion 2019 or greater - MS Visual Studio version section: [JetBrains](https://www.jetbrains.com/help/clion/installation-guide.html)
+2. Git 2.20 or greater:[Git](https://git-scm.com/downloads)
+3. More details see CLion 2019 or greater - MS Visual Studio version section:[JetBrains](https://www.jetbrains.com/help/clion/installation-guide.html)
 4. Install SFML
     * Open Powershell: <img src="./media/font_awesome/windows-brands.svg" width="14"/> + R and write in `` powershell [ENTER] ``
     * Go to Home folder: `` cd ~ [ENTER] ``
