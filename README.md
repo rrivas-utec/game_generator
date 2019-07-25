@@ -27,7 +27,7 @@ Please ensure that following prerequired components has been installed:
 5. Install SFML
     * Open a Terminal: [Ctrl] + [Alt] + [T]
     * Go to Home folder: `` cd ~ [ENTER] ``
-    * Verify and if it does not exist create a new folder called CLionProjects: `` mkdir CLionProjects [ENTER] ``
+    * Verify if folder CLionProjects exists `` ls [ENTER] `` otherwise create that new folder: `` mkdir CLionProjects [ENTER] ``
     * Go to CLionProjects folder: `` cd CLionProjects [ENTER] ``
     * Download game Project: `` git clone https://github.com/rrivas-utec/game.git [ENTER] ``, and finally
     * Execute following statements:
@@ -42,7 +42,7 @@ Please ensure that following prerequired components has been installed:
 4. Install SFML
     * Open a Terminal: [Command] + [Spacebar] and write in `` terminal [ENTER] ``
     * Go to Home folder: `` cd ~ [ENTER] ``
-    * Verify and if it does not exist create a new folder called CLionProjects: `` mkdir CLionProjects [ENTER] ``
+    * Verify if folder CLionProjects exists `` ls [ENTER] `` otherwise create that new folder: `` mkdir CLionProjects [ENTER] ``
     * Go to CLionProjects folder: `` cd CLionProjects [ENTER] ``
     * Download game Project: `` git clone https://github.com/rrivas-utec/game.git [ENTER] ``, and finally
     * Execute following statements:
@@ -60,7 +60,7 @@ Please ensure that following prerequired components has been installed:
 4. Install SFML
     * Open Powershell: <img src="./media/font_awesome/windows-brands.svg" width="14"/> + R and write in `` powershell [ENTER] ``
     * Go to Home folder: `` cd ~ [ENTER] ``
-    * Create a new folder called CLionProjects: `` mkdir CLionProjects [ENTER] ``
+    * Verify if folder CLionProjects exists `` ls [ENTER] `` otherwise create that new folder: `` mkdir CLionProjects [ENTER] ``
     * Go to CLionProjects folder: `` cd CLionProjects [ENTER] ``
     * Download game Project: `` git clone https://github.com/rrivas-utec/game.git [ENTER] ``, and finally
     * Execute following statements:
