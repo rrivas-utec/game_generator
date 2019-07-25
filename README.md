@@ -19,16 +19,16 @@ Please ensure that following prerequired components has been installed:
 * CLion
 ## Instalation
 
-#### Linux - Ubuntu 18.04
+#### <img src="./media/font_awesome/linux-brands.svg" width="16"/> <img src="./media/font_awesome/ubuntu-brands.svg" width="16"/> Linux - Ubuntu 18.04
 1. Ensure CMake has been installed or install as follow: `` sudo apt install cmake ``
 2. Ensure GNU C++/G++ has been installed as follow: `` sudo apt install g++ ``
 3. Ensure Git has been installed as follow: `` sudo apt install git ``
 4. More details see Linux - Ubuntu section: [JetBrains](https://www.jetbrains.com/help/clion/installation-guide.html)
-#### MacOS
+#### <img src="./media/font_awesome/apple-brands.svg" width="16"/> MacOS
 1. Ensure CLang has been installed or if it is necessary run follow statement: `` xcode-select --install ``
 2. Ensure Homebrew has been installed or see: [Homebrew](https://brew.sh)  
 3. More details see MacOS section: [JetBrains](https://www.jetbrains.com/help/clion/installation-guide.html)
-#### Windows
+#### <img src="./media/font_awesome/windows-brands.svg" width="16"/> Windows
 1. Visual Studio Community 2019: [VS Community](https://visualstudio.microsoft.com/vs/community/)
 2. Git 2.20 or greater: [Git](https://git-scm.com/downloads)
 3. More details see CLion 2019 or greater - MS Visual Studio version section: [JetBrains](https://www.jetbrains.com/help/clion/installation-guide.html)
@@ -36,3 +36,14 @@ Please ensure that following prerequired components has been installed:
     * Open Powershell: <img src="./media/font_awesome/windows-brands.svg" width="14"/> + R and write `` powershell [ENTER] ``
     * Go to Home folder: `` cd ~ [ENTER] ``
     * Create a new folder called CLionProjects: `` mkdir CLionProjects [ENTER] ``
+    * Go to CLionProjects folder: `` cd CLionProjects [ENTER] ``
+    * Download game Project: `` git clone https://github.com/rrivas-utec/game.git ``
+    * Execute following statements:
+    ```
+    cd ~/CLionProjects/game/Installers/windows
+    Set-ExecutionPolicy -ExecutionPolicy Unrestricted -Scope Process
+    Y
+    ./install_sfml.ps1
+    ```
+    
+    
