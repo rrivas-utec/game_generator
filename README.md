@@ -2,18 +2,18 @@
 This is a repository that contains  BASH and Powershell scripts, they allow to generate CMake projects that include SFML library.
 
 ## <img src="./media/font_awesome/check-square-regular.svg" width="18"/> Requirements
-#### <img src="./media/font_awesome/linux-brands.svg" width="16"/> <img src="./media/font_awesome/ubuntu-brands.svg" width="16"/> **Linux - Ubuntu**
+#### <img src="./media/font_awesome/linux-brands.svg" width="16"/> <img src="./media/font_awesome/ubuntu-brands.svg" width="16"/> **Linux - Ubuntu 18.04**
 Please ensure that following prerequired components has been installed:
 * CMake
 * GNU C++/G++
 * Git
 * CLion
-#### <img src="./media/font_awesome/apple-brands.svg" width="16"/> **MacOS - Mojave**
+#### <img src="./media/font_awesome/apple-brands.svg" width="16"/> **MacOS - Mojave 10.14**
 Please ensure that following prerequired components has been installed:
 * CLang
 * Homebrew  
 * CLion
-#### <img src="./media/font_awesome/windows-brands.svg" width="16"/> **Windows**
+#### <img src="./media/font_awesome/windows-brands.svg" width="16"/> **Windows 10**
 * Visual Studio Community
 * Git
 * CLion
