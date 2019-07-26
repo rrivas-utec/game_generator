@@ -108,7 +108,7 @@ Please ensure that following required components have been installed:
    ``` 
    cd ~/CLionProjects/game/generators/macOS
    ```
-2. Follow same instructions since step 2 in [Linux instructions](#project-ubuntu-step2) 
+2. Follow same [Linux instructions](#project-ubuntu-step2) since step 2. 
 #### <img src="./media/font_awesome/windows-brands.svg" width="16"/> **Windows 10** <a name="project-windows"/>
 1. Execute the following statement:
    ``` 
@@ -118,5 +118,5 @@ Please ensure that following required components have been installed:
    ```
    ./gen_project.ps1 pacman
    ```
-   This statement will generate a new folder called **pacman** at same level of **game** folder as it was explained in prior cases (linux and macOS) but it will not include any additional script so the recommendation is to execute this project from CLion IDE. 
+   This statement will generate a new folder called **pacman** at same level of **game** folder as it was explained in prior cases (linux and macOS) but it will not include any additional script so the recommendation for windows installation is to execute this project from CLion IDE or similar. 
    
