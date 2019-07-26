@@ -1,7 +1,12 @@
 # Welcome to Game
 This repository contains Bash and Powershell scripts to generate CMake projects that include SFML library.
 
-## <img src="./media/font_awesome/check-square-regular.svg" width="18"/> Requirements
+## Table of Content
+1. [Requirements](#requirement)
+2. [Installation](#installation)
+3. [How to generate a new SFML CMake project?](#project)
+
+## <img src="./media/font_awesome/check-square-regular.svg" width="18"/> Requirements <a name="requirement"/>
 #### <img src="./media/font_awesome/linux-brands.svg" width="16"/> <img src="./media/font_awesome/ubuntu-brands.svg" width="16"/> **Linux - Ubuntu 18.04**
 Please ensure that following required components have been installed:
 * CMake
@@ -20,7 +25,7 @@ Please ensure that following required components have been installed:
 * Visual Studio Community
 * Git
 * CLion
-## <img src="./media/font_awesome/download-solid.svg" width="18"/> Installation
+## <img src="./media/font_awesome/download-solid.svg" width="18"/> Installation <a name="installation"/>
 
 #### <img src="./media/font_awesome/linux-brands.svg" width="16"/> <img src="./media/font_awesome/ubuntu-brands.svg" width="16"/> **Linux - Ubuntu 18.04**
 1. Ensure CMake has been installed or install as follow: `` sudo apt install cmake  ``[ENTER]
@@ -74,7 +79,7 @@ Please ensure that following required components have been installed:
       Y
       ./install_sfml.ps1
       ```
-## <img src="./media/font_awesome/clone-regular.svg" width="18"/> How to generate a new SFML CMake project?
+## <img src="./media/font_awesome/clone-regular.svg" width="18"/> How to generate a new SFML CMake project? <a name="project"/>
 1. Execute the following statement:
    ``` 
    cd ~   /CLionProjects/game/generators/linux
