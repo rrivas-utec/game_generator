@@ -3,39 +3,39 @@ This repository contains Bash and Powershell scripts to generate CMake projects 
 
 ## Table of Content
 1. [Requirements](#requirement)
-   [Linux - Ubuntu]()
-   [macOS]()
-   [Windows]()
+   [Linux - Ubuntu](#requirement-ubuntu)
+   [macOS](#requirement-macOS)
+   [Windows](#requirement-windows)
 2. [Installation](#installation)
-   [Linux - Ubuntu]()
-   [macOS]()
-   [Windows]()
+   [Linux - Ubuntu](#installation-ubuntu)
+   [macOS](#installation-macOS)
+   [Windows](#installation-windows)
 3. [How to generate a new SFML CMake project?](#project)
-   [Linux - Ubuntu]()
-   [macOS]()
-   [Windows]()
+   [Linux - Ubuntu](#project-ubuntu)
+   [macOS](#project-macOS)
+   [Windows](#project-windows)
 ## <img src="./media/font_awesome/check-square-regular.svg" width="18"/> Requirements <a name="requirement"/>
-#### <img src="./media/font_awesome/linux-brands.svg" width="16"/> <img src="./media/font_awesome/ubuntu-brands.svg" width="16"/> **Linux - Ubuntu 18.04**
+#### <img src="./media/font_awesome/linux-brands.svg" width="16"/> <img src="./media/font_awesome/ubuntu-brands.svg" width="16"/> **Linux - Ubuntu 18.04** <a name="requirement-ubuntu"/>
 Please ensure that following required components have been installed:
 * CMake
 * GNU C++/G++
 * GDB
 * Git
 * CLion
-#### <img src="./media/font_awesome/apple-brands.svg" width="16"/> **MacOS - Mojave 10.14**
+#### <img src="./media/font_awesome/apple-brands.svg" width="16"/> **MacOS - Mojave 10.14** <a name="requirement-macOS"/>
 Please ensure that following required components have been installed:
 * CLang
 * Homebrew
 * Git
 * CLion
-#### <img src="./media/font_awesome/windows-brands.svg" width="16"/> **Windows 10**
+#### <img src="./media/font_awesome/windows-brands.svg" width="16"/> **Windows 10** <a name="requirement-windows"/>
 Please ensure that following required components have been installed:
 * Visual Studio Community
 * Git
 * CLion
 ## <img src="./media/font_awesome/download-solid.svg" width="18"/> Installation <a name="installation"/>
 
-#### <img src="./media/font_awesome/linux-brands.svg" width="16"/> <img src="./media/font_awesome/ubuntu-brands.svg" width="16"/> **Linux - Ubuntu 18.04**
+#### <img src="./media/font_awesome/linux-brands.svg" width="16"/> <img src="./media/font_awesome/ubuntu-brands.svg" width="16"/> **Linux - Ubuntu 18.04** <a name="installation-ubuntu"/>
 1. Ensure CMake has been installed or install as follow: `` sudo apt install cmake  ``[ENTER]
 2. Ensure GNU C++/G++ has been installed or install as follow: `` sudo apt install g++ ``[ENTER]
 3. Ensure GNU Debug has been installed or install as follow: `` sudo apt install gdb ``[ENTER]
@@ -52,7 +52,7 @@ Please ensure that following required components have been installed:
       cd ~/CLionProjects/game/installers/linux
       ./install_sfml.sh
       ``` 
-#### <img src="./media/font_awesome/apple-brands.svg" width="16"/> **MacOS - Mojave 10.14**
+#### <img src="./media/font_awesome/apple-brands.svg" width="16"/> **MacOS - Mojave 10.14** <a name="installation-macOS"/>
 1. Ensure CLang has been installed or if it is necessary run the following statement: `` xcode-select --install ``[ENTER]
 2. Ensure Homebrew has been installed or see: [Homebrew](https://brew.sh)
 3. Ensure Git has been installed or if it is necessary run the following statement: `` brew install git ``[ENTER]
@@ -68,7 +68,7 @@ Please ensure that following required components have been installed:
       cd ~/CLionProjects/game/installers/macOS
       ./install_sfml.sh
       ``` 
-#### <img src="./media/font_awesome/windows-brands.svg" width="16"/> **Windows 10**
+#### <img src="./media/font_awesome/windows-brands.svg" width="16"/> **Windows 10** <a name="installation-windows"/>
 1. Visual Studio Community 2019: [VS Community](https://visualstudio.microsoft.com/vs/community/)  
    **Minimum Requirement**:  
    <img src="./media/vscommunity_minimum.png" width="750" style="border:2px solid gray"/>
