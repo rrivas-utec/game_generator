@@ -72,7 +72,7 @@ Please ensure that following required components have been installed:
 1. Visual Studio Community 2019: [VS Community](https://visualstudio.microsoft.com/vs/community/)  
    **Minimum Requirement**:  
    <img src="./media/vscommunity_minimum.png" width="750" style="border:2px solid gray"/>
-2. Open a powershell terminal: <img src="./media/font_awesome/windows-brands.svg" width="14"/> + R and write in: ``powershell``
+2. Open a powershell terminal: [<img src="./media/font_awesome/windows-brands.svg" width="14"/>] + [R] and write in: ``powershell``
 3. Install Git 2.20 or greater: [Git](https://git-scm.com/downloads)
 4. Install CLion see more details in CLion 2019 - Visual Studio section: [JetBrains](https://www.jetbrains.com/help/clion/installation-guide.html)
 5. Install SFML:
@@ -112,7 +112,7 @@ Please ensure that following required components have been installed:
    ```
 3. Follow same [Linux instructions](#project-ubuntu-step3) since step 3. 
 #### <img src="./media/font_awesome/windows-brands.svg" width="16"/> **Windows 10** <a name="project-windows"/>
-1. Open a powershell terminal: <img src="./media/font_awesome/windows-brands.svg" width="14"/> + R and write in: ``powershell``
+1. Open a powershell terminal: [<img src="./media/font_awesome/windows-brands.svg" width="14"/>] + [R] and write in: ``powershell``
 2. Execute the following statement:
    ``` 
    cd ~/CLionProjects/game/generators/windows
