@@ -85,5 +85,9 @@ Please ensure that following required components have been installed:
    ```
    This statement will be generate a new folder at same level of game folder, in this case inside of CLionProjects and it will contain the following files:  
    <img src="./media/project_folder.png" width="400"/>  
-   The project could be used by CLion IDE but also can be compiled and generated online, will contain 3 additional scripts.
+   The project could be used by CLion IDE but also can be compiled in Command Line, in order to help it contains 3 additional scripts:
+   * ``build.sh``, to build a folder called **build** where CMake work stuff is saved.
+   * ``run.sh``, to compile the program and generate the executalbe, it verifies if **build** folder is available and if it is not build it.
+   * ``clean.sh``, to clean any previous compilation.
+   
    
