@@ -98,7 +98,7 @@ Please ensure that following required components have been installed:
    ./gen_project.sh pacman
    ```
    This statement will generate a new folder called **pacman** at same level of **game** folder, in this case both folders will be inside of **CLionProjects** folder and **pacman** folder will contain the following files:  
-   <img src="./media/project_folder.png" width="400"/>  
+   <img src="./media/project_folder.png" width="250"/>  
    The project could be used by CLion IDE but also can be compiled in command line, in order to help command line programming, it contains 3 additional scripts:
    * ``build.sh``, to build a folder called **build** where CMake work stuff is saved.
    * ``run.sh``, to compile the program and generate the executalbe, it verifies if **build** folder is available and if it is not build it.
