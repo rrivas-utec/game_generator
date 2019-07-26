@@ -58,7 +58,7 @@ Please ensure that following required components have been installed:
 #### <img src="./media/font_awesome/windows-brands.svg" width="16"/> **Windows 10**
 1. Visual Studio Community 2019: [VS Community](https://visualstudio.microsoft.com/vs/community/)  
    **Minimum Requirement**:  
-   <img src="./media/vscommunity_minimum.png" width="750" style="border:1px solid gray"/>
+   <img src="./media/vscommunity_minimum.png" width="750" style="border:2px solid gray"/>
 2. Git 2.20 or greater: [Git](https://git-scm.com/downloads)
 3. Install CLion see more details in CLion 2019 - Visual Studio section: [JetBrains](https://www.jetbrains.com/help/clion/installation-guide.html)
 4. Install SFML:
