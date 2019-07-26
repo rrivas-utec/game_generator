@@ -74,5 +74,5 @@ Please ensure that following required components have been installed:
       Y
       ./install_sfml.ps1
       ```
-## <img src="./media/font_awesome/check-square-regular.svg" width="18"/> How to generate a new CMake project?
+## <img src="./media/font_awesome/clone-regular.svg" width="18"/> How to generate a new SFML CMake project?
 
