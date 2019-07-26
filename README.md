@@ -94,7 +94,7 @@ Please ensure that following required components have been installed:
    ``` 
    cd ~/CLionProjects/game/generators/linux
    ```
-3. Define the name of your project, for example **pacman** and execute the following statement:<a name="project-ubuntu-step2"/>
+3. Define the name of your project, for example **pacman** and execute the following statement:<a name="project-ubuntu-step3"/>
    ```
    ./gen_project.sh pacman
    ```
@@ -110,14 +110,14 @@ Please ensure that following required components have been installed:
    ``` 
    cd ~/CLionProjects/game/generators/macOS
    ```
-3. Follow same [Linux instructions](#project-ubuntu-step2) since step 2. 
+3. Follow same [Linux instructions](#project-ubuntu-step3) since step 3. 
 #### <img src="./media/font_awesome/windows-brands.svg" width="16"/> **Windows 10** <a name="project-windows"/>
 1. Open a powershell terminal: <img src="./media/font_awesome/windows-brands.svg" width="14"/> + R and write in: ``powershell``
 2. Execute the following statement:
    ``` 
    cd ~/CLionProjects/game/generators/windows
    ```
-3. Define the name of your project, for example **pacman** and execute the following statement:<a name="project-ubuntu-step2"/>
+3. Define the name of your project, for example **pacman** and execute the following statement:
    ```
    ./gen_project.ps1 pacman
    ```
