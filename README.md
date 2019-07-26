@@ -64,7 +64,7 @@ Please ensure that following required components have been installed:
 4. Install SFML:
     * Open Powershell: <img src="./media/font_awesome/windows-brands.svg" width="14"/> + R and write in `` powershell [ENTER] ``
     * Go to Home folder: `` cd ~ [ENTER] ``
-    * Verify if folder CLionProjects exists `` ls [ENTER] `` otherwise create that new folder: `` mkdir CLionProjects [ENTER] ``
+    * Verify if CLionProjects folder exists `` ls [ENTER] `` otherwise create the new folder: `` mkdir CLionProjects [ENTER] ``
     * Go to CLionProjects folder: `` cd CLionProjects [ENTER] ``
     * Download game project: `` git clone https://github.com/rrivas-utec/game.git [ENTER] ``, and finally
     * Execute following statements:
