@@ -14,8 +14,8 @@ This repository contains Bash and Powershell scripts to generate CMake projects 
    - [Linux - Ubuntu](#project-ubuntu)  
    - [macOS](#project-macOS)  
    - [Windows](#project-windows)  
-## <img src="./media/font_awesome/check-square-regular.svg" width="16" style="top:0.125em;position:relative;"/> Requirements <a name="requirement"/>
-#### <img src="./media/font_awesome/linux-brands.svg" width="16"/> <img src="./media/font_awesome/ubuntu-brands.svg" width="16"/> **Linux - Ubuntu 18.04** <a name="requirement-ubuntu"/>
+## <img src="./media/font_awesome/check-square-regular.svg" width="16" style="top:0.135em;position:relative;"/> Requirements <a name="requirement"/>
+#### <img src="./media/font_awesome/linux-brands.svg" width="16" style="top:0.135em;position:relative;"/> <img src="./media/font_awesome/ubuntu-brands.svg" width="16"style="top:0.125em;position:relative;" /> **Linux - Ubuntu 18.04** <a name="requirement-ubuntu"/>
 Please ensure that following required components have been installed:
 * CMake
 * GNU C++/G++
