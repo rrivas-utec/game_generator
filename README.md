@@ -116,7 +116,7 @@ Please ensure that following required components have been installed:
    ```
 2. Define the name of your project, for example **pacman** and execute the following statement:<a name="project-ubuntu-step2"/>
    ```
-   ./gen_project.sh pacman
+   ./gen_project.ps1 pacman
    ```
-   This statement will generate a new folder at same level of game folder as it was explained in prior cases (linux and macOS) but it does not include additional scripts so the recommendation is to execute from CLion IDE. 
+   This statement will generate a new folder at same level of game folder as it was explained in prior cases (linux and macOS) but it does not include any additional script so the recommendation is to execute this project from CLion IDE. 
    
