@@ -36,14 +36,14 @@ Please ensure that following required components have been installed:
 ## <img src="./media/font_awesome/download-solid.svg" width="18"/> Installation <a name="installation"/>
 
 #### <img src="./media/font_awesome/linux-brands.svg" width="16"/> <img src="./media/font_awesome/ubuntu-brands.svg" width="16"/> **Linux - Ubuntu 18.04** <a name="installation-ubuntu"/>
-1. Ensure CMake has been installed: ``cmake --version`` or install as follow: `` sudo apt install cmake  ``
-2. Ensure GNU C++/G++ has been installed: ``g++ --version`` or install as follow: `` sudo apt install g++ ``
-3. Ensure GNU Debug has been installed: ``gdb --version`` or install as follow: `` sudo apt install gdb ``
-4. Ensure Git has been installed: ``git --version`` or install as follow: `` sudo apt install git ``
-5. Install CLion see more details in Linux - Ubuntu section: [JetBrains](https://www.jetbrains.com/help/clion/installation-guide.html)
-6. Install SFML
-    * Open a Terminal: [Ctrl] + [Alt] + [T]
-    * Go to Home folder: `` cd ~ ``
+1. Open a terminal: [Ctrl] + [Alt] + [T]
+2. Ensure CMake has been installed: ``cmake --version`` or install as follow: `` sudo apt install cmake  ``
+3. Ensure GNU C++/G++ has been installed: ``g++ --version`` or install as follow: `` sudo apt install g++ ``
+4. Ensure GNU Debug has been installed: ``gdb --version`` or install as follow: `` sudo apt install gdb ``
+5. Ensure Git has been installed: ``git --version`` or install as follow: `` sudo apt install git ``
+6. Install CLion see more details in Linux - Ubuntu section: [JetBrains](https://www.jetbrains.com/help/clion/installation-guide.html)
+7. Install SFML
+    * In the terminal go to Home folder: `` cd ~ ``
     * Verify if folder CLionProjects exists: `` ls `` otherwise create that new folder: `` mkdir CLionProjects ``
     * Go to CLionProjects folder: `` cd CLionProjects ``
     * Download game project: `` git clone https://github.com/rrivas-utec/game.git ``, and finally
@@ -53,16 +53,16 @@ Please ensure that following required components have been installed:
       ./install_sfml.sh
       ``` 
 #### <img src="./media/font_awesome/apple-brands.svg" width="16"/> **MacOS - Mojave 10.14** <a name="installation-macOS"/>
-1. Ensure CLang has been installed: ``clang --version`` or if it is necessary run follow statement: ``xcode-select --install``
-2. Ensure Homebrew has been installed: ``brew --version`` or see: [Homebrew](https://brew.sh)
-3. Ensure Git has been installed: ``git --version`` or if it is necessary run the following statement: ``brew install git``
-4. Install CLion see more details in MacOS section: [JetBrains](https://www.jetbrains.com/help/clion/installation-guide.html)
-5. Install SFML:
-    * Open a Terminal: [Command] + [Spacebar] and write in: ``terminal``
-    * Go to Home folder: ``cd ~``
-    * Verify if folder CLionProjects exists: ``ls `` otherwise create that new folder: ``mkdir CLionProjects``
-    * Go to CLionProjects folder: `` cd CLionProjects `` 
-    * Download game project: `` git clone https://github.com/rrivas-utec/game.git ``, and finally
+1. Open a terminal: [Command] + [Spacebar] and write in: ``terminal``
+2. Ensure CLang has been installed: ``clang --version`` or if it is necessary run follow statement: ``xcode-select --install``
+3. Ensure Homebrew has been installed: ``brew --version`` or see: [Homebrew](https://brew.sh)
+4. Ensure Git has been installed: ``git --version`` or if it is necessary run the following statement: ``brew install git``
+5. Install CLion see more details in MacOS section: [JetBrains](https://www.jetbrains.com/help/clion/installation-guide.html)
+6. Install SFML:
+    * In the terminal go to Home folder: ``cd ~``
+    * Verify if folder CLionProjects exists: ``ls`` otherwise create that new folder: ``mkdir CLionProjects``
+    * Go to CLionProjects folder: `` cd CLionProjects`` 
+    * Download game project: `` git clone https://github.com/rrivas-utec/game.git``, and finally
     * Execute the following statements:
       ```
       cd ~/CLionProjects/game/installers/macOS
@@ -72,14 +72,14 @@ Please ensure that following required components have been installed:
 1. Visual Studio Community 2019: [VS Community](https://visualstudio.microsoft.com/vs/community/)  
    **Minimum Requirement**:  
    <img src="./media/vscommunity_minimum.png" width="750" style="border:2px solid gray"/>
-2. Install Git 2.20 or greater: [Git](https://git-scm.com/downloads)
-3. Install CLion see more details in CLion 2019 - Visual Studio section: [JetBrains](https://www.jetbrains.com/help/clion/installation-guide.html)
-4. Install SFML:
-    * Open Powershell: <img src="./media/font_awesome/windows-brands.svg" width="14"/> + R and write in: `` powershell ``
-    * Go to Home folder: `` cd ~  ``
-    * Verify if CLionProjects folder exists: `` ls `` otherwise create the new folder: `` mkdir CLionProjects ``
-    * Go to CLionProjects folder: `` cd CLionProjects ``
-    * Download game project: `` git clone https://github.com/rrivas-utec/game.git ``, and finally
+2. Open a powershell terminal: <img src="./media/font_awesome/windows-brands.svg" width="14"/> + R and write in: ``powershell``
+3. Install Git 2.20 or greater: [Git](https://git-scm.com/downloads)
+4. Install CLion see more details in CLion 2019 - Visual Studio section: [JetBrains](https://www.jetbrains.com/help/clion/installation-guide.html)
+5. Install SFML:
+    * In the powershell terminal go to Home folder: ``cd ~``
+    * Verify if CLionProjects folder exists: ``ls`` otherwise create the new folder: ``mkdir CLionProjects``
+    * Go to CLionProjects folder: ``cd CLionProjects``
+    * Download game project: ``git clone https://github.com/rrivas-utec/game.git``, and finally
     * Execute the following statements:
       ```
       cd ~/CLionProjects/game/installers/windows
@@ -89,11 +89,12 @@ Please ensure that following required components have been installed:
       ```
 ## <img src="./media/font_awesome/clone-regular.svg" width="18"/> How to generate a new SFML CMake project? <a name="project"/>
 #### <img src="./media/font_awesome/linux-brands.svg" width="16"/> <img src="./media/font_awesome/ubuntu-brands.svg" width="16"/> **Linux - Ubuntu 18.04** <a name="project-ubuntu"/>
-1. Execute the following statement:
+1. Open a terminal: [Ctrl] + [Alt] + [T]
+2. Execute the following statement:
    ``` 
    cd ~/CLionProjects/game/generators/linux
    ```
-2. Define the name of your project, for example **pacman** and execute the following statement:<a name="project-ubuntu-step2"/>
+3. Define the name of your project, for example **pacman** and execute the following statement:<a name="project-ubuntu-step2"/>
    ```
    ./gen_project.sh pacman
    ```
@@ -104,19 +105,20 @@ Please ensure that following required components have been installed:
    * ``run.sh``, to compile the program and generate the executalbe, it verifies if **build** folder is available and if it is not build it.
    * ``clean.sh``, to clean any previous compilation.
 #### <img src="./media/font_awesome/apple-brands.svg" width="16"/> **MacOS - Mojave 10.14** <a name="project-macOS"/>
-1. Execute the following statement:
+1. Open a terminal: [Command] + [Spacebar] and write in: ``terminal``
+2. Execute the following statement:
    ``` 
    cd ~/CLionProjects/game/generators/macOS
    ```
-2. Follow same [Linux instructions](#project-ubuntu-step2) since step 2. 
+3. Follow same [Linux instructions](#project-ubuntu-step2) since step 2. 
 #### <img src="./media/font_awesome/windows-brands.svg" width="16"/> **Windows 10** <a name="project-windows"/>
-1. Execute the following statement:
+1. Open a powershell terminal: <img src="./media/font_awesome/windows-brands.svg" width="14"/> + R and write in: ``powershell``
+2. Execute the following statement:
    ``` 
    cd ~/CLionProjects/game/generators/windows
    ```
-2. Define the name of your project, for example **pacman** and execute the following statement:<a name="project-ubuntu-step2"/>
+3. Define the name of your project, for example **pacman** and execute the following statement:<a name="project-ubuntu-step2"/>
    ```
    ./gen_project.ps1 pacman
    ```
    This statement will generate a new folder called **pacman** at same level of **game** folder as it was explained in prior cases (linux and macOS) but it will not include any additional script so the recommendation for windows installation is to execute this project from CLion IDE or similar. 
-   
