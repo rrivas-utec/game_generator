@@ -75,15 +75,14 @@ Please ensure that following required components have been installed:
       ./install_sfml.ps1
       ```
 ## <img src="./media/font_awesome/clone-regular.svg" width="18"/> How to generate a new SFML CMake project?
-1. Execute follow statements
+1. Execute the following statement:
    ``` 
-   cd ~
-   /CLionProjects/game/generators/linux
+   cd ~   /CLionProjects/game/generators/linux
    ```
 2. Define the name of your project, for example **pacman** and execute the following statement:
    ```
    ./gen_project.sh pacman
    ```
    This statement will be generate a new folder at same level of game folder, in this case inside of CLionProjects and it will contain the following files:  
-   <img src="./media/project_folder.png" width="500"/>
+   <img src="./media/project_folder.png" width="400"/>
    
