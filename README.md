@@ -3,17 +3,17 @@ This repository contains Bash and Powershell scripts to generate CMake projects 
 
 ## Table of Content
 1. [Requirements](#requirement)  
-   [Linux - Ubuntu](#requirement-ubuntu)  
-   [macOS](#requirement-macOS)  
-   [Windows](#requirement-windows)  
+   - [Linux - Ubuntu](#requirement-ubuntu)  
+   - [macOS](#requirement-macOS)  
+   - [Windows](#requirement-windows)  
 2. [Installation](#installation)  
-   [Linux - Ubuntu](#installation-ubuntu)  
-   [macOS](#installation-macOS)  
-   [Windows](#installation-windows)  
+   - [Linux - Ubuntu](#installation-ubuntu)  
+   - [macOS](#installation-macOS)  
+   - [Windows](#installation-windows)  
 3. [How to generate a new SFML CMake project?](#project)  
-   [Linux - Ubuntu](#project-ubuntu)  
-   [macOS](#project-macOS)  
-   [Windows](#project-windows)  
+   - [Linux - Ubuntu](#project-ubuntu)  
+   - [macOS](#project-macOS)  
+   - [Windows](#project-windows)  
 ## <img src="./media/font_awesome/check-square-regular.svg" width="18"/> Requirements <a name="requirement"/>
 #### <img src="./media/font_awesome/linux-brands.svg" width="16"/> <img src="./media/font_awesome/ubuntu-brands.svg" width="16"/> **Linux - Ubuntu 18.04** <a name="requirement-ubuntu"/>
 Please ensure that following required components have been installed:
