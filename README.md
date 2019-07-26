@@ -85,5 +85,5 @@ Please ensure that following required components have been installed:
    ./gen_project.sh pacman
    ```
    This statement will be generate a new folder at same level of game folder, in this case inside of CLionProjects and it will contain the following files:
-   
+   > <img src="./media/project_folder.png" width="750"/>
    
