@@ -88,19 +88,35 @@ Please ensure that following required components have been installed:
       ./install_sfml.ps1
       ```
 ## <img src="./media/font_awesome/clone-regular.svg" width="18"/> How to generate a new SFML CMake project? <a name="project"/>
+#### <img src="./media/font_awesome/linux-brands.svg" width="16"/> <img src="./media/font_awesome/ubuntu-brands.svg" width="16"/> **Linux - Ubuntu 18.04** <a name="project-ubuntu"/>
 1. Execute the following statement:
    ``` 
    cd ~   /CLionProjects/game/generators/linux
    ```
-2. Define the name of your project, for example **pacman** and execute the following statement:
+2. Define the name of your project, for example **pacman** and execute the following statement:<a name="project-ubuntu-step2"/>
    ```
    ./gen_project.sh pacman
    ```
-   This statement will be generate a new folder at same level of game folder, in this case inside of CLionProjects and it will contain the following files:  
+   This statement will generate a new folder at same level of game folder, in this case inside of CLionProjects and it will contain the following files:  
    <img src="./media/project_folder.png" width="400"/>  
    The project could be used by CLion IDE but also can be compiled in Command Line, in order to help it contains 3 additional scripts:
    * ``build.sh``, to build a folder called **build** where CMake work stuff is saved.
    * ``run.sh``, to compile the program and generate the executalbe, it verifies if **build** folder is available and if it is not build it.
    * ``clean.sh``, to clean any previous compilation.
-   
+#### <img src="./media/font_awesome/apple-brands.svg" width="16"/> **MacOS - Mojave 10.14** <a name="project-macOS"/>
+1. Execute the following statement:
+   ``` 
+   cd ~   /CLionProjects/game/generators/macOS
+   ```
+2. Follow same instructions since step 2 in [Linux instructions](#project-ubuntu-step2) 
+#### <img src="./media/font_awesome/windows-brands.svg" width="16"/> **Windows 10** <a name="project-windows"/>
+1. Execute the following statement:
+   ``` 
+   cd ~   /CLionProjects/game/generators/windows
+   ```
+2. Define the name of your project, for example **pacman** and execute the following statement:<a name="project-ubuntu-step2"/>
+   ```
+   ./gen_project.sh pacman
+   ```
+   This statement will generate a new folder at same level of game folder as it was explained in prior cases (linux and macOS) but it does not include additional scripts so the recommendation is to execute from CLion IDE. 
    
