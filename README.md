@@ -53,14 +53,14 @@ Please ensure that following required components have been installed:
       ./install_sfml.sh
       ``` 
 #### <img src="./media/font_awesome/apple-brands.svg" width="16"/> **MacOS - Mojave 10.14** <a name="installation-macOS"/>
-1.
+1. Ensure CLang has been installed: ``clang --version`` or if it is necessary run follow statement: ``xcode-select --install``
 2. Ensure Homebrew has been installed: ``brew --version`` or see: [Homebrew](https://brew.sh)
-3. Ensure Git has been installed: ``git --version`` or if it is necessary run the following statement: `` brew install git ``
+3. Ensure Git has been installed: ``git --version`` or if it is necessary run the following statement: ``brew install git``
 4. Install CLion see more details in MacOS section: [JetBrains](https://www.jetbrains.com/help/clion/installation-guide.html)
 5. Install SFML:
-    * Open a Terminal: [Command] + [Spacebar] and write in: `` terminal  ``
-    * Go to Home folder: `` cd ~ ``
-    * Verify if folder CLionProjects exists: `` ls `` otherwise create that new folder: `` mkdir CLionProjects ``
+    * Open a Terminal: [Command] + [Spacebar] and write in: ``terminal``
+    * Go to Home folder: ``cd ~``
+    * Verify if folder CLionProjects exists: ``ls `` otherwise create that new folder: ``mkdir CLionProjects``
     * Go to CLionProjects folder: `` cd CLionProjects `` 
     * Download game project: `` git clone https://github.com/rrivas-utec/game.git ``, and finally
     * Execute the following statements:
@@ -91,7 +91,7 @@ Please ensure that following required components have been installed:
 #### <img src="./media/font_awesome/linux-brands.svg" width="16"/> <img src="./media/font_awesome/ubuntu-brands.svg" width="16"/> **Linux - Ubuntu 18.04** <a name="project-ubuntu"/>
 1. Execute the following statement:
    ``` 
-   cd ~   /CLionProjects/game/generators/linux
+   cd ~/CLionProjects/game/generators/linux
    ```
 2. Define the name of your project, for example **pacman** and execute the following statement:<a name="project-ubuntu-step2"/>
    ```
@@ -106,13 +106,13 @@ Please ensure that following required components have been installed:
 #### <img src="./media/font_awesome/apple-brands.svg" width="16"/> **MacOS - Mojave 10.14** <a name="project-macOS"/>
 1. Execute the following statement:
    ``` 
-   cd ~   /CLionProjects/game/generators/macOS
+   cd ~/CLionProjects/game/generators/macOS
    ```
 2. Follow same instructions since step 2 in [Linux instructions](#project-ubuntu-step2) 
 #### <img src="./media/font_awesome/windows-brands.svg" width="16"/> **Windows 10** <a name="project-windows"/>
 1. Execute the following statement:
    ``` 
-   cd ~   /CLionProjects/game/generators/windows
+   cd ~/CLionProjects/game/generators/windows
    ```
 2. Define the name of your project, for example **pacman** and execute the following statement:<a name="project-ubuntu-step2"/>
    ```
