@@ -57,7 +57,7 @@ Please ensure that following required components have been installed:
       ``` 
 #### <img src="./media/font_awesome/windows-brands.svg" width="16"/> **Windows 10**
 1. Visual Studio Community 2019: [VS Community](https://visualstudio.microsoft.com/vs/community/)  
-   **Minimum Requirement**:   
+   **Minimum Requirement**:  
    <img src="./media/vscommunity_minimum.png" width="750"/>
 2. Git 2.20 or greater: [Git](https://git-scm.com/downloads)
 3. Install CLion see more details in CLion 2019 - Visual Studio section: [JetBrains](https://www.jetbrains.com/help/clion/installation-guide.html)
@@ -84,6 +84,6 @@ Please ensure that following required components have been installed:
    ```
    ./gen_project.sh pacman
    ```
-   This statement will be generate a new folder at same level of game folder, in this case inside of CLionProjects and it will contain the following files:
+   This statement will be generate a new folder at same level of game folder, in this case inside of CLionProjects and it will contain the following files:  
    <img src="./media/project_folder.png" width="500"/>
    
