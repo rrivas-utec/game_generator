@@ -36,10 +36,10 @@ Please ensure that following required components have been installed:
 ## <img src="./media/font_awesome/download-solid.svg" width="18"/> Installation <a name="installation"/>
 
 #### <img src="./media/font_awesome/linux-brands.svg" width="16"/> <img src="./media/font_awesome/ubuntu-brands.svg" width="16"/> **Linux - Ubuntu 18.04** <a name="installation-ubuntu"/>
-1. Ensure CMake has been installed or install as follow: `` sudo apt install cmake  ``[ENTER]
-2. Ensure GNU C++/G++ has been installed or install as follow: `` sudo apt install g++ ``[ENTER]
-3. Ensure GNU Debug has been installed or install as follow: `` sudo apt install gdb ``[ENTER]
-4. Ensure Git has been installed or install as follow: `` sudo apt install git ``[ENTER]
+1. Ensure CMake has been installed ``cmake --version`` or install as follow: `` sudo apt install cmake  ``[ENTER]
+2. Ensure GNU C++/G++ has been installed ``g++ --version`` or install as follow: `` sudo apt install g++ ``[ENTER]
+3. Ensure GNU Debug has been installed ``gdb --version`` or install as follow: `` sudo apt install gdb ``[ENTER]
+4. Ensure Git has been installed ``git --version`` or install as follow: `` sudo apt install git ``[ENTER]
 5. Install CLion see more details in Linux - Ubuntu section: [JetBrains](https://www.jetbrains.com/help/clion/installation-guide.html)
 6. Install SFML
     * Open a Terminal: [Ctrl] + [Alt] + [T]
@@ -53,14 +53,14 @@ Please ensure that following required components have been installed:
       ./install_sfml.sh
       ``` 
 #### <img src="./media/font_awesome/apple-brands.svg" width="16"/> **MacOS - Mojave 10.14** <a name="installation-macOS"/>
-1. Ensure CLang has been installed or if it is necessary run the following statement: `` xcode-select --install ``[ENTER]
-2. Ensure Homebrew has been installed or see: [Homebrew](https://brew.sh)
-3. Ensure Git has been installed or if it is necessary run the following statement: `` brew install git ``[ENTER]
+1. Ensure CLang has been installed ``clang --version`` or if it is necessary run the following statement: `` xcode-select --install ``[ENTER]
+2. Ensure Homebrew has been installed ``brew --version`` or see: [Homebrew](https://brew.sh)
+3. Ensure Git has been installed ``git --version`` or if it is necessary run the following statement: `` brew install git ``
 4. Install CLion see more details in MacOS section: [JetBrains](https://www.jetbrains.com/help/clion/installation-guide.html)
 5. Install SFML:
-    * Open a Terminal: [Command] + [Spacebar] and write in `` terminal  ``[ENTER]
-    * Go to Home folder: `` cd ~ ``[ENTER]
-    * Verify if folder CLionProjects exists `` ls ``[ENTER] otherwise create that new folder: `` mkdir CLionProjects ``[ENTER]
+    * Open a Terminal: [Command] + [Spacebar] and write in `` terminal  ``
+    * Go to Home folder: `` cd ~ ``
+    * Verify if folder CLionProjects exists `` ls `` otherwise create that new folder: `` mkdir CLionProjects ``
     * Go to CLionProjects folder: `` cd CLionProjects ``[ENTER] 
     * Download game project: `` git clone https://github.com/rrivas-utec/game.git ``[ENTER], and finally
     * Execute the following statements:
