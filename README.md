@@ -70,14 +70,14 @@ Please ensure that following required components have been installed:
       ./install_sfml.sh
       ``` 
 #### <img src="./media/font_awesome/windows-brands.svg" width="16"/> **Windows 10** <a name="installation-windows"/>
-1. Visual Studio Community 2019: [VS Community](https://visualstudio.microsoft.com/vs/community/)  
+1. Install Visual Studio Community 2019: [VS Community](https://visualstudio.microsoft.com/vs/community/)  
    **Minimum Requirement**:  
    <img src="./media/vscommunity_minimum.png" width="750" style="border:2px solid gray"/>
-2. Open a powershell terminal: [<img src="./media/font_awesome/windows-brands.svg" width="14"/>] + [R] and write in: ``powershell``
+2. Open a PowerShell terminal: [<img src="./media/font_awesome/windows-brands.svg" width="14"/>] + [R] and write in: ``powershell``
 3. Install Git 2.20 or greater: [Git](https://git-scm.com/downloads)
 4. Install CLion see more details in CLion 2019 - Visual Studio section: [JetBrains](https://www.jetbrains.com/help/clion/installation-guide.html)
 5. Install SFML:
-    * In the powershell terminal go to Home folder: ``cd ~``
+    * In the PowerShell terminal go to Home folder: ``cd ~``
     * Verify if CLionProjects folder exists: ``ls`` otherwise create the new folder: ``mkdir CLionProjects``
     * Go to CLionProjects folder: ``cd CLionProjects``
     * Download game project: ``git clone https://github.com/rrivas-utec/game.git``, and finally
@@ -103,7 +103,7 @@ Please ensure that following required components have been installed:
    <img src="./media/project_folder.png" width="250"/>  
    The project could be used by CLion IDE but also can be compiled in command line, in order to help command line programming, it contains 3 additional scripts:
    * ``build.sh``, to build a folder called **build** where CMake work stuff is saved.
-   * ``run.sh``, to compile the program and generate the executalbe, it verifies if **build** folder is available and if it is not build it.
+   * ``run.sh``, to compile the program and generate the executable, it verifies if **build** folder is available and if it is not, the script builds it.
    * ``clean.sh``, to clean any previous compilation.
 #### <img src="./media/font_awesome/apple-brands.svg" width="16"/> **MacOS - Mojave 10.14** <a name="project-macOS"/>
 1. Open a terminal: [Command] + [Spacebar] and write in: ``terminal``
@@ -113,7 +113,7 @@ Please ensure that following required components have been installed:
    ```
 3. Follow same [Linux instructions](#project-ubuntu-step3) since step 3. 
 #### <img src="./media/font_awesome/windows-brands.svg" width="16"/> **Windows 10** <a name="project-windows"/>
-1. Open a powershell terminal: [<img src="./media/font_awesome/windows-brands.svg" width="14"/>] + [R] and write in: ``powershell``
+1. Open a PowerShell terminal: [<img src="./media/font_awesome/windows-brands.svg" width="14"/>] + [R] and write in: ``powershell``
 2. Execute the following statement:
    ``` 
    cd ~/CLionProjects/game/generators/windows
