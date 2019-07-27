@@ -1,5 +1,5 @@
 # Welcome to Game
-This repository contains Bash and Powershell scripts to generate CMake projects that include SFML library.
+This repository contains Bash and PowerShell scripts to generate CMake projects that include SFML library.
 
 ## Table of Content
 1. [Requirements](#requirement)  
