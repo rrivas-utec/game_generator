@@ -1,4 +1,6 @@
-Checkear-<svg witdh="100" height="100"><use width="100" height="100" href="./media/font_awesome/check-square-regular.svg#main"></use></svg>-ccc 
+<img src="./media/font_awesome/check-square-regular.svg" width="18" height="18"/>  
+<svg witdh="50%" height="50%"><use href="./media/font_awesome/check-square-regular.svg#checksquare"></use></svg>  
+-ccc  
 
 # Welcome to Game
 This repository contains Bash and Powershell scripts to generate CMake projects that include SFML library.
