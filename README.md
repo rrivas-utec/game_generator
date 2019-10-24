@@ -8,6 +8,7 @@ This repository contains Bash and PowerShell scripts to generate CMake projects 
    - [Windows](#requirement-windows)  
 2. [Installation](#installation)  
    - [Linux - Ubuntu](#installation-ubuntu)  
+   - [Linux - Arch](#installation-arch)  
    - [macOS](#installation-macOS)  
    - [Windows](#installation-windows)  
 3. [How to generate a new SFML CMake project?](#project)  
@@ -53,6 +54,17 @@ Please ensure that following required components have been installed:
       cd ~/CLionProjects/game/installers/linux
       ./install_sfml.sh
       ``` 
+
+#### <img src="./media/font_awesome/linux-brands.svg" width="16"/> <img src="./media/font_awesome/arch-brands.svg" width="16"/> **Linux - Arch Linux** <a name="installation-arch"/>
+1. Open a terminal.
+2. Ensure CMake has been installed: ``cmake --version`` or install as follow: ``sudo pacman -S cmake``
+3. Ensure gcc has been installed: ``g++ --version`` or install as follow: ``sudo pacman -S base-devel``
+4. Ensure GNU Debug has been installed: ``gdb --version`` or install as follow: `` sudo pacman -S gdb ``
+5. Ensure Git has been installed: ``git --version`` or install as follow: `` sudo pacman -S git ``
+6. Install CLion
+[from the aur](https://aur.archlinux.org/packages/clion/)
+7. Install SFML
+    ``sudo pacman -S sfml``
 #### <img src="./media/font_awesome/apple-brands.svg" width="16"/> **MacOS - Mojave 10.14** <a name="installation-macOS"/>
 1. Open a terminal: [Command] + [Spacebar] and write in: ``terminal``
 2. Ensure CLang has been installed: ``clang --version`` or if it is necessary run follow statement: ``xcode-select --install``
