@@ -120,6 +120,8 @@ Please ensure that following required components have been installed:
    ```
 3. Define the name of your project, for example **pacman** and execute the following statement:
    ```
+   Set-ExecutionPolicy -ExecutionPolicy Unrestricted -Scope Process
+   A
    ./gen_project.ps1 pacman
    ```
    This statement will generate a new folder called **pacman** at same level of **game** folder as it was explained in prior cases (linux and macOS) but it will not include any additional script so the recommendation for windows installation is to execute this project from CLion IDE or similar. 
