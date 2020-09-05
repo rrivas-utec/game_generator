@@ -1,4 +1,4 @@
-# Welcome to Game
+# Welcome to Game 2020
 This repository contains Bash and PowerShell scripts to generate CMake projects that include SFML library.
 
 ## Table of Content
