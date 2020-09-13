@@ -1,4 +1,4 @@
-﻿cmake_minimum_required(VERSION 3.13)
+﻿cmake_minimum_required(VERSION 3.10)
 project(PROYECTO)
 
 # Archivos del Projecto
@@ -26,13 +26,8 @@ include_directories(${SFML_INCLUDE_DIR})
 # Instrucciones para generar el ejecutable
 add_executable(${PROJECT_NAME} ${PROJECT_SOURCE})
 
-find_package(SFML 2.5.1
-        COMPONENTS
-            system
-            window
-            graphics
-        REQUIRED)
-
+include(FindPkgConfig)
+pkg_check_modules( SFML sfml-all)
 target_link_libraries (${PROJECT_NAME}
         sfml-system
         sfml-window
