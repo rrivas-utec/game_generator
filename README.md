@@ -47,7 +47,7 @@ Please ensure that following required components have been installed:
     * In the terminal go to Home folder: `` cd ~ ``
     * Verify if folder CLionProjects exists: `` ls `` otherwise create that new folder: `` mkdir CLionProjects ``
     * Go to CLionProjects folder: `` cd CLionProjects ``
-    * Download game project: `` git clone https://github.com/rrivas-utec/game.git ``, and finally
+    * Download game project: `` git clone https://github.com/rrivas-utec/game_generator.git``, and finally
     * Execute the following statements:
       ```
       cd ~/CLionProjects/game/installers/linux
@@ -63,7 +63,7 @@ Please ensure that following required components have been installed:
     * In the terminal go to Home folder: ``cd ~``
     * Verify if folder CLionProjects exists: ``ls`` otherwise create that new folder: ``mkdir CLionProjects``
     * Go to CLionProjects folder: `` cd CLionProjects`` 
-    * Download game project: `` git clone https://github.com/rrivas-utec/game.git``, and finally
+    * Download game project: `` git clone https://github.com/rrivas-utec/game_generator.git``, and finally
     * Execute the following statements:
       ```
       cd ~/CLionProjects/game/installers/macOS
@@ -80,7 +80,7 @@ Please ensure that following required components have been installed:
     * In the PowerShell terminal go to Home folder: ``cd ~``
     * Verify if CLionProjects folder exists: ``ls`` otherwise create the new folder: ``mkdir CLionProjects``
     * Go to CLionProjects folder: ``cd CLionProjects``
-    * Download game project: ``git clone https://github.com/rrivas-utec/game.git``, and finally
+    * Download game project: ``git clone https://github.com/rrivas-utec/game_generator.git``, and finally
     * Execute the following statements:
       ```
       cd ~/CLionProjects/game/installers/windows
