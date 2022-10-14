@@ -1,4 +1,4 @@
-# Welcome to Game 2020 - September 
+# Welcome to Game Generator 2020 - September 
 This repository contains Bash and PowerShell scripts to generate CMake projects that include SFML library.
 
 ## Table of Content
