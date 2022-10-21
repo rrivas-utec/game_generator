@@ -50,7 +50,7 @@ Please ensure that following required components have been installed:
     * Download game project: `` git clone https://github.com/rrivas-utec/game_generator.git``, and finally
     * Execute the following statements:
       ```
-      cd ~/CLionProjects/game/installers/linux
+      cd ~/CLionProjects/game_generator/installers/linux
       ./install_sfml.sh
       ``` 
 #### <img src="./media/font_awesome/apple-brands.svg" width="16"/> **MacOS - Mojave 10.14** <a name="installation-macOS"/>
@@ -63,10 +63,10 @@ Please ensure that following required components have been installed:
     * In the terminal go to Home folder: ``cd ~``
     * Verify if folder CLionProjects exists: ``ls`` otherwise create that new folder: ``mkdir CLionProjects``
     * Go to CLionProjects folder: `` cd CLionProjects`` 
-    * Download game project: `` git clone https://github.com/rrivas-utec/game_generator.git``, and finally
+    * Download game_generator project: `` git clone https://github.com/rrivas-utec/game_generator.git``, and finally
     * Execute the following statements:
       ```
-      cd ~/CLionProjects/game/installers/macOS
+      cd ~/CLionProjects/game_generator/installers/macOS
       ./install_sfml.sh
       ``` 
 #### <img src="./media/font_awesome/windows-brands.svg" width="16"/> **Windows 10** <a name="installation-windows"/>
@@ -80,10 +80,10 @@ Please ensure that following required components have been installed:
     * In the PowerShell terminal go to Home folder: ``cd ~``
     * Verify if CLionProjects folder exists: ``ls`` otherwise create the new folder: ``mkdir CLionProjects``
     * Go to CLionProjects folder: ``cd CLionProjects``
-    * Download game project: ``git clone https://github.com/rrivas-utec/game_generator.git``, and finally
+    * Download game_generator project: ``git clone https://github.com/rrivas-utec/game_generator.git``, and finally
     * Execute the following statements:
       ```
-      cd ~/CLionProjects/game/installers/windows
+      cd ~/CLionProjects/game_generator/installers/windows
       Set-ExecutionPolicy -ExecutionPolicy Unrestricted -Scope Process
       Y
       ./install_sfml.ps1
@@ -93,13 +93,13 @@ Please ensure that following required components have been installed:
 1. Open a terminal: [Ctrl] + [Alt] + [T]
 2. Execute the following statement:
    ``` 
-   cd ~/CLionProjects/game/generators/linux
+   cd ~/CLionProjects/game_generator/generators/linux
    ```
 3. Define the name of your project, for example **pacman** and execute the following statement:<a name="project-ubuntu-step3"/>
    ```
    ./gen_project.sh pacman
    ```
-   This statement will generate a new folder called **pacman** at same level of **game** folder, in this case both folders will be inside of **CLionProjects** folder and **pacman** folder will contain the following files:  
+   This statement will generate a new folder called **pacman** at same level of **game_generator** folder, in this case both folders will be inside of **CLionProjects** folder and **pacman** folder will contain the following files:  
    <img src="./media/project_folder.png" width="250"/>  
    The project could be used by CLion IDE but also can be compiled in command line, in order to help command line programming, it contains 3 additional scripts:
    * ``build.sh``, to build a folder called **build** where CMake work stuff is saved.
@@ -109,14 +109,14 @@ Please ensure that following required components have been installed:
 1. Open a terminal: [Command] + [Spacebar] and write in: ``terminal``
 2. Execute the following statement:
    ``` 
-   cd ~/CLionProjects/game/generators/macOS
+   cd ~/CLionProjects/game_generator/generators/macOS
    ```
 3. Follow same [Linux instructions](#project-ubuntu-step3) since step 3. 
 #### <img src="./media/font_awesome/windows-brands.svg" width="16"/> **Windows 10** <a name="project-windows"/>
 1. Open a PowerShell terminal: [<img src="./media/font_awesome/windows-brands.svg" width="14"/>] + [R] and write in: ``powershell``
 2. Execute the following statement:
    ``` 
-   cd ~/CLionProjects/game/generators/windows
+   cd ~/CLionProjects/game_generator/generators/windows
    ```
 3. Define the name of your project, for example **pacman** and execute the following statement:
    ```
@@ -124,4 +124,4 @@ Please ensure that following required components have been installed:
    A
    ./gen_project.ps1 pacman
    ```
-   This statement will generate a new folder called **pacman** at same level of **game** folder as it was explained in prior cases (linux and macOS) but it will not include any additional script so the recommendation for windows installation is to execute this project from CLion IDE or similar. 
+   This statement will generate a new folder called **pacman** at same level of **game_generator** folder as it was explained in prior cases (linux and macOS) but it will not include any additional script so the recommendation for windows installation is to execute this project from CLion IDE or similar. 
